@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.main_page-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 90px;
+}
+.list-book {
+  display: flex;
+  flex-flow: row wrap;
+}
+.book-block {
+  width: 200px;
+  height: 390px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  border-radius: 5px;
+}
+.img-cover img {
+  width: 100%;
+  border-radius: 5px;
+}
+.book-description {
+}
+.title {
+  font-size: 18px;
+}
+.author {
+  font-size: 14px;
+}
+.create-book {
+  width: 100%;
+  height: 20px;
+  margin: 3rem 0 1rem 0;
+}
+/* @media (max-width: 810px) {
+  .create-book {
+    height: 20px;
+    margin: 3rem 0 1rem 0;
+  }
+} */

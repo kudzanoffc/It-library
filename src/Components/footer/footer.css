@@ -1,0 +1,29 @@
+.footer {
+  background: #212529;
+  height: 10rem;
+  margin-top: 20px;
+}
+.footer-section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #ffc107;
+  margin: 20px 0 12px 0;
+}
+.footer-link img {
+  margin-right: 5px;
+}
+a {
+  text-decoration: none;
+  transition: 0.2s;
+  color: rgba(255, 255, 255, 0.5);
+}
+a:hover {
+  color: #d1d1d1;
+}
+a:active {
+  color: #d1d1d1;
+}
