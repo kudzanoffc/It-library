@@ -3,3 +3,28 @@
   text-decoration: none;
   color: aliceblue;
 }
+.nav-container {
+  display: flex;
+  flex-direction: row;
+}
+.nav-item {
+  text-decoration: none;
+  transition: 0.2s;
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 20px;
+}
+.nav-item:hover {
+  color: #e3e3e3;
+}
+.nav-item:active {
+  color: #ffc107;
+}
+
+@media (max-width: 766px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-item {
+    padding: 10px 0 10px 0;
+  }
+}

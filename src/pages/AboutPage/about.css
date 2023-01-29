@@ -1,6 +1,8 @@
-h1 {
-  margin-top: 90px;
+.about-container {
+  max-width: 1087px;
+  margin: auto;
+  padding-top: 90px;
 }
-.viewAbout {
-  height: 100vh;
+.about-title {
+  color: #212529;
 }

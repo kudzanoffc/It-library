@@ -3,12 +3,13 @@
   font-family: "Open Sans", sans-serif;
 }
 .main_page-container {
-  width: 80%;
+  max-width: 1087px;
   margin: auto;
   margin-top: 90px;
 }
 .list-book {
   display: flex;
+  justify-content: center;
   flex-flow: row wrap;
 }
 .book-block {
